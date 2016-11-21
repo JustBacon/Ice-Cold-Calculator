@@ -1,16 +1,16 @@
 var sign = ["+","-","*","/"];
 
 
-function calc(sign, a , b){
+function calc(a, sign , b){
 	if(sign == "+"){
-		console.log(a+b)
+		console.log(a+b);
 	}else if(sign == "-"){
-		console.log(a-b)
+		console.log(a-b);
 	}else if(sign == "*"){
-		console.log(a*b)
+		console.log(a*b);
 	}else if(sign == "/"){
-		console.log(a/b)
+		console.log(a/b);
 	}
 }
             
-calc(sign[1],5,3)
+calc(5,sign[1],3)
